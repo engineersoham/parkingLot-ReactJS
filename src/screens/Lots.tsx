@@ -150,7 +150,7 @@ const Lots: FC<lotsPropsType> = (props) => {
 
 					<View style={style.buttonRow}>
 						<Button
-							title="Remove"
+							title="Payment Taken"
 							onPress={() => {
 								setLotsList(
 									lotsList.map((lot) => {
